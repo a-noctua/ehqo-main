@@ -1,11 +1,11 @@
 ---
 permalink: /index.html
-title: ' Eleventy Excellent'
-description: 'Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement.'
+title: ' Insert Title'
+description: 'a website by ehqo.'
 layout: 'home'
 blog:
   title: 'Blog'
-  intro: "I'm showing the last 4 blog posts, but there might be more!"
+  intro: "Some of the things I've been writing:"
 ---
 
 ## An Eleventy starter
