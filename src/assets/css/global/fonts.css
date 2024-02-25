@@ -31,51 +31,60 @@
   }
 
   @font-face {
-    font-family: Figtree;
-    font-style: italic;
+    font-family: Fields;
+    font-style: normal;
     font-display: swap;
-    font-weight: 500;
+    font-weight: 700;
     src:
       local(''),
-      url('/assets/fonts/figtree/figtree-mediumitalic.woff2') format('woff2');
+      url('/assets/fonts/figtree/figtree-medium.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-family: Fields;
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src:
+      local(''),
+      url('/assets/fonts/fields/Fields.woff2') format('woff2');
   }
 }
 
 /* Set up for modern browsers, all weights */
 @supports (font-variation-settings: normal) {
   @font-face {
-    font-family: 'Figtree';
+    font-family: 'Fields';
     src:
-      url('/assets/fonts/figtree/figtree-variable[wght].woff2')
+      url('/assets/fonts/fields/Fields.woff2')
         format('woff2 supports variations'),
-      url('/assets/fonts/figtree/figtree-variable[wght].woff2') format('woff2-variations');
-    font-weight: 300 900;
+      url('/assets/fonts/fields/Fields.woff2') format('woff2-variations');
+    font-weight: 200 400;
     font-style: normal;
     font-display: swap;
   }
 
   @font-face {
-    font-family: 'Figtree';
+    font-family: 'Fields';
     src:
-      url('/assets/fonts/figtree/figtree-variable-italic[wght].woff2')
+      url('/assets/fonts/fields/Fields.woff2')
         format('woff2 supports variations'),
-      url('/assets/fonts/figtree/figtree-variable-italic[wght].woff2')
+      url('/assets/fonts/fields/Fields.woff2')
         format('woff2-variations');
-    font-weight: 300 900;
+    font-weight: 200 400;
     font-style: italic;
     font-display: swap;
   }
 }
 
-/* 900 weight is handled as if 700. */
 @font-face {
-  font-family: 'Redhat';
+  font-family: 'Atkinson Hyperlegible';
   font-style: normal;
   font-display: swap;
-  font-weight: 700;
+  font-weight: 400;
   src:
     local(''),
-    url(/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2) format('woff2');
+    url(/assets/fonts/atkinsonhyperlegible/Atkinson-Hyperlegible-Regular-102a.woff2) format('woff2');
 }
 
 @font-face {
