@@ -5,17 +5,18 @@
     {
       "name": "Display",
       "description": "Display font stack for headings and large text.",
-      "value": ["Redhat", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"]
+      "value": ["Fields", "Palatino Linotype", "URW Palladio L", "serif"]
     },
     {
       "name": "Base",
       "description": "Base font stack for body text.",
       "value": [
-        "Figtree",
-        "Optima",
-        "Candara",
+        "Atkinson Hyperlegible",
+        "Segoe UI",
+        "Roboto",
+        "Helvetica Neue",
+        "Arial",
         "Noto Sans",
-        "source-sans-pro",
         "sans-serif"
       ]
     },
