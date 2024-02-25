@@ -1,6 +1,6 @@
 ---
 permalink: /index.html
-title: ' Insert Title'
+title: 'Insert Title'
 description: 'a website by ehqo.'
 layout: 'home'
 blog:
