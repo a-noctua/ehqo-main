@@ -2,7 +2,7 @@ module.exports = {
   url: process.env.URL || 'http://localhost:8080',
   siteName: 'The Future, Softly',
   siteDescription:
-    'A website by Ehqo',
+    'A blog writteb by Ehqo.',
   siteType: 'Person', // schema
   locale: 'en_EN',
   lang: 'en',
@@ -23,12 +23,12 @@ module.exports = {
   themeBgColor: '#30323D', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
   opengraph_default: '/assets/images/template/og-default.png', // fallback/default meta image
   opengraph_default_alt:
-    'A blog written by Ehqo', // alt text for default meta image
+    'A blog about our future by Ehqo.', // alt text for default meta image
   blog: {
     // RSS feed
-    name: 'Ehqos Echoes',
+    name: 'The Future, Softly',
     description:
-      'A blog written by Ehqo.',
+      'A blog about our future by Ehqo.',
     // feed links are looped over in the head. You may add more to the array.
     feedLinks: [
       {
@@ -67,6 +67,7 @@ module.exports = {
     dark: 'dark',
     initial: 'select'
   },
+  /* TURNED THIS STUFF OFF
   greenweb: {
     // this goes into src/common/greenweb.njk
     providers: {
@@ -86,5 +87,6 @@ module.exports = {
     allow: false,
     infoText: 'View this page on GitHub'
   },
-  easteregg: true
+  easteregg: false
+  */
 };
