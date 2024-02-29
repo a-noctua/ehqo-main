@@ -1,5 +1,6 @@
 ---
-font: "'Red Hat Display', Ubuntu" # These get created in development, you must have the font installed on your system.
+displayfont: "Fields Variable" # These get created in development, you must have the font installed on your system.
+bodyfont: "Atkinson Hyperlegible" # These get created in development, you must have the font installed on your system.
 background: '#343434'
 text: '#FBFBFB'
 colors: ['#dd4462', '#c73d58', '#b1364e', '#9a3044']
@@ -47,21 +48,21 @@ eleventyExcludeFromCollections: true
 
 		<!-- date -->
 		<text
-			font-family="{{ font }}, sans-serif"
+			font-family="{{ bodyfont }}, sans-serif"
 			font-size="24"
 			font-weight="900"
 			fill="{{ text }}"
 			letter-spacing="-1"
 		>
 			<tspan x="160" y="{{ verticalStartingPoint - 120 }}">
-				{{ post.date | formatDate('DD / MM / YYYY') }}
+				{{ post.date | formatDate('YYYY-MM-DD') }}
 			</tspan>
 		</text>
 
 		<!-- title -->
 		<text
 			id="text"
-			font-family="{{ font }}, sans-serif"
+			font-family="{{ displayfont }}, sans-serif"
 			font-size="80"
 			font-weight="900"
 			fill="{{ text }}"
@@ -76,7 +77,7 @@ eleventyExcludeFromCollections: true
 
 		<!-- sitename / url -->
 		<text
-		font-family="{{ font }}, sans-serif"
+		font-family="{{ displayfont }}, sans-serif"
 			font-size="24"
 			font-weight="500"
 			fill="{{ text }}"

@@ -1,19 +1,17 @@
 ---
 permalink: /index.html
-title: 'Insert Title'
-description: 'a website by ehqo.'
+title: 'The Future, Softly'
+description: 'A blog written by Ehqo.'
 layout: 'home'
 blog:
   title: 'Blog'
   intro: "Some of the things I've been writing:"
 ---
 
-## An Eleventy starter
+## Hey there, I'm Ehqo!
 
-This starter is based on [Andy Bell's CSS workflow/boilerplate](/about/).
-In Andy's words, we'd rather hint the browser than micromanage it, using progressive enhancement, CSS layout, fluid type & spacing, and modern CSS features.
-The aim is to create frontends that look good to everyone, regardless of device, connection speed or context.
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
 
-Everything else is my own defaults and opinions and my preferred organization system for Eleventy projects. I have tried to [document a few things](/get-started/).
+Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
 
-**Have fun** and let me know if you find any issues or have ideas for improvements!
+Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.

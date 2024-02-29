@@ -39,7 +39,6 @@ const {svgToJpeg} = require('./config/events/index.js');
 
 const {EleventyRenderPlugin} = require('@11ty/eleventy');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
-const inclusiveLangPlugin = require('@11ty/eleventy-plugin-inclusive-language');
 const bundlerPlugin = require('@11ty/eleventy-plugin-bundle');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
@@ -106,7 +105,6 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);
-  eleventyConfig.addPlugin(inclusiveLangPlugin);
   eleventyConfig.addPlugin(bundlerPlugin);
   eleventyConfig.setLibrary('md', markdownLib);
 

@@ -3,16 +3,13 @@ title: Privacy Policy
 seo:
   title: Privacy Policy
 permalink: /privacy/index.html
-description: I respect the EU General Data Protection Regulation (GDPR). This policy document explains how I collect and handle any information you provide to me.
+description: This policy document explains how I collect and handle any information you provide to me.
 layout: page
 ---
 
 Edit your details in `_data/personal.yaml`
 
 I respect the EU General Data Protection Regulation (GDPR) and this policy document explains how I collect and handle any information you provide to me.
-
-**What background data is collected?**
-This site does not use any third party tracking scripts.
 
 **How do I use the data you provide?**
 This website does not collect any data.
