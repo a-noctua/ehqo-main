@@ -1,7 +1,7 @@
 ---
 title: My 2024 App Defaults
-description: My current app defaults with included changelog
-tags: ['changelog', 'tools']
+description: An evergreen list of the apps that I use (almost) every day
+tags: ['tools', 'changelog']
 date: 2024-03-04
 ---
 
