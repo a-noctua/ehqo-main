@@ -1,17 +1,16 @@
 ---
 permalink: /index.html
-title: 'The Future, Softly'
-description: 'A blog written by Ehqo.'
+title: 'Ehqo’s Echoes'
+description: 'A website by Ehqo'
 layout: 'home'
 blog:
   title: 'Blog'
   intro: "Some of the things I've been writing:"
 ---
-
 ## Hey there, I'm Ehqo!
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. 
+Welcome to my personal website and blog. 
 
-Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
+I'm still not entirely sure what I will be including here, but I imagine it will act as my [digital garden](https://maggieappleton.com/garden-history) as I find my way around on the [indie web](https://indieweb.org/IndieWeb).
 
-Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+As this site is very much under construction, please send me an [email](mailto:ehqo@omg.lol) or [toot](https://social.lol/@ehqo) if you have any suggestions or find any bugs.

@@ -3,11 +3,9 @@ title: Privacy Policy
 seo:
   title: Privacy Policy
 permalink: /privacy/index.html
-description: This policy document explains how I collect and handle any information you provide to me.
+description: This policy explains how I collect and handle any information you provide to me.
 layout: page
 ---
-
-Edit your details in `_data/personal.yaml`
 
 I respect the EU General Data Protection Regulation (GDPR) and this policy document explains how I collect and handle any information you provide to me.
 

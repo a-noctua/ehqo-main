@@ -1,8 +1,8 @@
 module.exports = {
   url: process.env.URL || 'http://localhost:8080',
-  siteName: 'The Future, Softly',
+  siteName: 'Ehqo’s Echoes',
   siteDescription:
-    'A blog writteb by Ehqo.',
+    'A website by Ehqo.',
   siteType: 'Person', // schema
   locale: 'en_EN',
   lang: 'en',
@@ -11,24 +11,24 @@ module.exports = {
     name: 'Ehqo', 
     avatar: '/favicon.png',
     email: 'ehqo@omg.lol', 
-    website: 'https://ehqo.me' 
+    website: 'https://ehqo.net' 
   },
   creator: {
     name: 'Ehqo',
     email: 'ehqo@omg.lol',
-    website: 'https://ehqo.me',
+    website: 'https://ehqo.net',
     social: 'https://social.lol/@ehqo'
   },
   themeColor: '#6290C8', //  Manifest: defines the default theme color for the application
   themeBgColor: '#30323D', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
   opengraph_default: '/assets/images/template/og-default.png', // fallback/default meta image
   opengraph_default_alt:
-    'A blog about our future by Ehqo.', // alt text for default meta image
+    'A blog written by Ehqo.', // alt text for default meta image
   blog: {
     // RSS feed
-    name: 'The Future, Softly',
+    name: 'Ehqo’s Echoes',
     description:
-      'A blog about our future by Ehqo.',
+      'A blog written by Ehqo.',
     // feed links are looped over in the head. You may add more to the array.
     feedLinks: [
       {

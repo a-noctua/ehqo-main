@@ -1,23 +1,17 @@
 ---
 title: About
 permalink: /about/index.html
-description: 'Eleventy Excellent is inspired bythe companion website of Andy Bell’s talk "Be the browser’s mentor, not its micromanager".'
+description: 'A little bit about Ehqo'
 layout: page
 youtube: true
 ---
 
-This starter uses modern CSS, fluid type & space, flexible Layouts and Progressive Enhancement, wrapped in a basic template.
+This page will largely be a work-in-progress for some time while I continue to build out my site. 
 
-It is built around the CSS boilerplate by Andy Bell and inspired by Andy's talk **'Be the browser’s mentor, not its micromanager'**.
+For now, here's a few ~fun facts~ about me:
 
-If you want to know exactly how it all works, [read this article on piccalil.li](https://piccalil.li/blog/a-css-project-boilerplate/).
-
-The aim is to spread the idea and use of this _excellent_ workflow. To work with it efficiently you should be familiar with [cube.fyi](https://cube.fyi/), [utopia.fyi](https://utopia.fyi/) and [every-layout.dev](https://every-layout.dev/).
-
-- buildexcellentwebsit.es
-- Remix the original: https://glitch.com/edit/#!/remix/build-excellent-websites
-- Study the [original CSS boilerplate](https://github.com/Set-Creative-Studio/cube-boilerplate/tree/main)
-
-## Watch the talk
-
-{% youtube 'JqnMI1AXl6w', 'Andy Bell – Be the browser’s mentor, not its micromanager' %}
+- I'm a techno-generalist (meaning I'm not particularly good at any particular thing) with a wide array of interests and hobbies, such as furniture restoration
+- I'm completely obsessed with my dog, who is a small but sometimes big, black labrador mix
+- By trade, I work in [REDACTED], where I do my best to safeguard people and things
+- I have many goals for 2024 - one of them is reading and writing more
+- My handle is prounced like the word echo - /ˈek.oʊ/

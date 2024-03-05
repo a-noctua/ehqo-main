@@ -1,10 +1,10 @@
 ---
 displayfont: "Fields Variable" # These get created in development, you must have the font installed on your system.
-bodyfont: "Atkinson Hyperlegible" # These get created in development, you must have the font installed on your system.
-background: '#343434'
-text: '#FBFBFB'
-colors: ['#dd4462', '#c73d58', '#b1364e', '#9a3044']
-siteUrl: 'eleventy-excellent.netlify.app'
+bodyfont: "Atkinson Hyperlegible"
+background: '#EAE4D9'
+text: '#30323D'
+colors: ['#6290C8', '#2A7F62']
+siteUrl: 'ehqo.net'
 pagination:
   data: collections.posts
   size: 1
@@ -35,10 +35,10 @@ eleventyExcludeFromCollections: true
 		{% endif %}
 
 		<!-- SVG background, generate your own on: https://app.haikei.app/ or  https://pattern.monster/ -->
-		<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='20' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(39, 29%, 88%, 1)'/><path d='M 10,-2.55e-7 V 20 Z M -1.1677362e-8,10 H 20 Z'  stroke-width='1' stroke='hsla(39, 29%, 88%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(#a)'/></svg>
+	
 
 		<!-- if you need to darken or lighten your bg -->
-		<rect id="bg" width="100%" height="100%" opacity="0.1" fill="{{ background }}"/>
+		<rect id="bg" width="100%" height="100%" fill="{{ background }}"/>
 		<rect id="name-bg" width="100%" height="42px" fill="{{ background }}" transform="translate(150,550)" />
 
 		<!-- date -->
@@ -57,7 +57,7 @@ eleventyExcludeFromCollections: true
 		<!-- title -->
 		<text
 			id="text"
-			font-family="{{ displayfont }}, sans-serif"
+			font-family="{{ bodyfont }}, sans-serif"
 			font-size="80"
 			font-weight="900"
 			fill="{{ text }}"
@@ -72,7 +72,7 @@ eleventyExcludeFromCollections: true
 
 		<!-- sitename / url -->
 		<text
-		font-family="{{ displayfont }}, sans-serif"
+		font-family="{{ bodyfont }}, sans-serif"
 			font-size="24"
 			font-weight="500"
 			fill="{{ text }}"
