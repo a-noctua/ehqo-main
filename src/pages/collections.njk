@@ -1,0 +1,41 @@
+---
+title: Collections
+permalink: /collections/index.html
+description: 'Collections curated by Ehqo'
+layout: page
+grid:
+  sizes: "(max-width: 615px) 50vw, 100vw"
+  widths: [400, 520]
+---
+
+<p>
+  I like collecting stuff. Not really physical stuff like Pokemon cards or antique timepieces, but digital stuff like websites, resources, files, and more. Lucky for me, digital stuff takes up alot less space too.
+</p>
+<p>
+    Here are some of the things I've found and curated:
+</p>
+
+<article class="full section" style="--spot-color: var(--color-bg)">
+
+  <section class="section__inner wrapper">
+    <ul class="grid" role="list" style="--gutter: var(--space-xl) var(--space-m)">
+      <!-- you find the data for that in src/_data/blogroll.json -->
+      {% for site in collectionmeta %}
+
+      <li class="collection-card | text-step-min-1">
+        <!-- {% eleventyImage site.screenshot, site.name, null, "lazy", null, sizes, widths %} -->
+        
+        <h3>{{ site.name }}</h3>
+
+        <p>
+          {{ site.description }}
+        </p>
+
+        <p>
+          <a href="{{ site.link }}">{{ site.link | replace("https://", "") }}</a>
+        </p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</article>

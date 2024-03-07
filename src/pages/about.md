@@ -3,7 +3,6 @@ title: About
 permalink: /about/index.html
 description: 'A little bit about Ehqo'
 layout: page
-youtube: true
 ---
 
 This page will largely be a work-in-progress for some time while I continue to build out my site. 

@@ -1,0 +1,39 @@
+---
+title: Blogroll
+permalink: /collections/blogroll/index.html
+description: 'A Blogroll curated by Ehqo'
+layout: page
+grid:
+  sizes: "(max-width: 615px) 50vw, 100vw"
+	widths: [400, 520]
+---
+
+<p>
+    The more I read online, the more gems I discover. There's an incredible world of talented bloggers out there, sharing their unique perspectives and passions. And so I figured I'd share a few of the blogs and publications that I think deserve more attention.
+</p>
+  
+  <article class="full section" style="--spot-color: var(--color-bg)">
+  
+    <section class="section__inner wrapper">
+      <ul class="grid" role="list" style="--gutter: var(--space-xl) var(--space-m)">
+        <!-- you find the data for that in src/_data/blogroll.json -->
+        {% for site in blogroll %}
+  
+        <li class="collection-card | text-step-min-1">
+          <!-- {% eleventyImage site.screenshot, site.name, null, "lazy", null, sizes, widths %} -->
+          
+          <h3>{{ site.name }}</h3>
+  
+          <p>
+            {{ site.description }}
+          </p>
+  
+          <p>
+            <a href="{{ site.link }}">{{ site.link | replace("https://", "") }}</a>
+          </p>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </article>
+

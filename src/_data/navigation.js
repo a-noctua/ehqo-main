@@ -7,6 +7,10 @@ module.exports = {
     {
       text: 'Blog',
       url: '/blog/'
+    },
+    {
+      text: 'Collections',
+      url: '/collections/'
     }
   ],
   bottom: [

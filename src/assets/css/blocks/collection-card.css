@@ -1,0 +1,64 @@
+.collection-card {
+    display: grid;
+    gap: 2ch;
+    grid-row: span 3;
+    grid-template-rows: subgrid;
+    background-color: var(--color-bg-accent);
+    border: 4px solid transparent; /* Use 4px solid transparent for normal state */
+    color: var(--color-text);
+    padding: var(--space-s-m);
+    border-radius: var(--border-radius);
+    max-inline-size: unset;
+    box-sizing: border-box; /* Ensure this is set */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.collection-card:hover,
+.collection-card:focus-within {
+    border-color: var(--color-primary); /* Change border color on hover/focus */
+}
+
+  
+  .collection-card img {
+    max-inline-size: var(--max-img-width, 100%);
+    block-size: auto;
+    aspect-ratio: 12/9;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  
+  .collection-card ::selection {
+    color: var(--color-dark);
+    background-color: var(--color-secondary);
+  }
+  
+  .collection-card h2,
+  .collection-card h3 {
+    font-family: var(--font-base);
+    font-size: var(--size-step-2);
+  }
+  
+  .collection-card h2 a,
+  .collection-card h3 a {
+    text-decoration: none;
+  }
+  
+  /* 'clickable' */
+  
+  .collection-card:focus-within a:focus {
+    outline: none;
+  }
+  .collection-card {
+    position: relative;
+  }
+  .collection-card a:after {
+    bottom: 0;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+  }
+  
