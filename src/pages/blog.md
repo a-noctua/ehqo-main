@@ -1,6 +1,6 @@
 ---
 title: Blog
-description: 'Blog Posts by Ehqo'
+description: 'Blog posts by Ehqo'
 layout: blog
 pagination:
   data: collections.posts
