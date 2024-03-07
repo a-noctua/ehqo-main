@@ -21,7 +21,7 @@ module.exports = {
   },
   themeColor: '#6290C8', //  Manifest: defines the default theme color for the application
   themeBgColor: '#30323D', // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
-  opengraph_default: '/assets/images/template/og-default.png', // fallback/default meta image
+  opengraph_default: '/src/assets/images/template/og-default.png', // fallback/default meta image
   opengraph_default_alt:
     'A blog written by Ehqo.', // alt text for default meta image
   blog: {
