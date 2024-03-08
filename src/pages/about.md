@@ -14,3 +14,8 @@ For now, here's a few ~fun facts~ about me:
 - By trade, I work in [REDACTED], where I do my best to safeguard people and things
 - I have many goals for 2024 - one of them is reading and writing more
 - My handle is prounced like the word echo - /ˈek.oʊ/
+
+## Links
+- [Mastodon](https://social.lol/@ehqo)
+- [omg.lol](https://ehqo.lol)
+- [Scribbles](https://notes.ehqo.net)
