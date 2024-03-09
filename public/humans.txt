@@ -1,0 +1,9 @@
+/* TEAM */
+Developer: Ehqo
+Contact: ehqo@omg.lol
+Site: https://ehqo.net
+
+Find me on: https://social.lol/@ehqo
+
+/* SITE */
+Doctype: HTML5

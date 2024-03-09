@@ -133,7 +133,7 @@ module.exports = eleventyConfig => {
     pathPrefix: '/',
 
     dir: {
-      output: 'dist',
+      output: 'public',
       input: 'src',
       includes: '_includes',
       layouts: '_layouts'

@@ -1,0 +1,514 @@
+
+
+<!doctype html>
+<html lang="en">
+  <!-- The order of elements in the head follows recommendations by Harry Roberts. learn more here: https://www.youtube.com/watch?v=MHyAOZ45vnU -->
+
+  <head>
+    <!-- charset/http-equiv/viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- title -->
+    <title>
+      
+        Ehqo’s Echoes
+      
+    </title>
+
+    <!-- 4 synchronous js  -->
+    <!-- load theme toggle first to avoid color flashing on page load and inline render blocking js  -->
+    
+
+    <script>
+      // prettier-ignore
+      (()=>{var r="theme-preference",c="light",u="dark",t={value:n()};window.onload=()=>{let e=document.querySelector("#light-theme-toggle"),o=document.querySelector("#dark-theme-toggle"),d=document.querySelector("[data-theme-switcher]");d&&(d.removeAttribute("hidden"),a(),e.addEventListener("click",()=>l("light")),o.addEventListener("click",()=>l("dark")),e.setAttribute("aria-pressed",t.value==="light"),o.setAttribute("aria-pressed",t.value==="dark"))},window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",({matches:e})=>{t.value=e?"dark":"light",i()});function l(e){t.value=e,document.querySelector("#light-theme-toggle").setAttribute("aria-pressed",e==="light"),document.querySelector("#dark-theme-toggle").setAttribute("aria-pressed",e==="dark"),i()}function n(){return localStorage.getItem(r)?localStorage.getItem(r):window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}function i(){localStorage.setItem(r,t.value),a()}function a(){document.firstElementChild.setAttribute("data-theme",t.value),document.querySelector("#light-theme-toggle")?.setAttribute("aria-label",c),document.querySelector("#dark-theme-toggle")?.setAttribute("aria-label",u)}a()})();
+
+    </script>
+
+    <!--  inline base schema -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "http://ehqo.net#website",
+        "url": "http://ehqo.net",
+        "name": "Ehqo’s Echoes",
+        "description": "A website by Ehqo.",
+        "inLanguage": "en_EN"
+      }
+    ]
+  }
+</script>
+
+
+    <!--  inline blogpost schema  -->
+    
+
+    <link rel="stylesheet" href="/assets/css/global.css?abf2-69cf-ec22" />
+
+    <!-- preloads -->
+    <link
+      rel="preload"
+      href="/assets/fonts/atkinsonhyperlegible/Atkinson-Hyperlegible-Regular-102a.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link
+      rel="preload"
+      href="/assets/fonts/fields/Fields.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- preloads in page data -->
+
+    <!-- defered js  -->
+
+    
+      <!-- masonry fallback, if true in frontmatter -->
+      <script src="/assets/scripts/masonry.js?abf2-69cf-ec22" defer></script>
+    
+
+    
+
+    
+
+    
+
+    <!-- everything else: meta tags, icons, open graph etc.  -->
+    <base href="/" />
+
+<meta
+  name="description"
+  content="
+  
+    A website by Ehqo
+  
+  "
+/>
+
+<meta name="theme-color" content="#6290C8" />
+<!-- Search Engines -->
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<!-- Made with Eleventy! -->
+<meta name="generator" content="Eleventy v2.0.1" />
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=no" />
+<!-- supports both dark and light color schemes, page author prefers light as default. -->
+<meta name="color-scheme" content="light dark" />
+<!-- activates page transitions -->
+<meta name="view-transition" content="same-origin" />
+
+<!-- Helps prevent duplicate content issues -->
+<link rel="canonical" href="http://ehqo.net/" />
+
+<!-- Links to information about the author(s) of the document -->
+<link rel="author" href="humans.txt" />
+
+
+
+<!-- Open Graph meta  -->
+<meta property="og:url" content="http://ehqo.net/" />
+<meta property="og:type" content="website" />
+<meta
+  property="og:title"
+  content="Ehqo’s Echoes"
+/>
+<meta
+  property="og:image"
+  content="http://ehqo.net
+    /src/assets/images/template/og-default.png
+  "
+/>
+<meta
+  property="og:image:alt"
+  content="
+    A blog written by Ehqo.
+  "
+/>
+<meta
+  property="og:description"
+  content="A website by Ehqo"
+/>
+<meta property="og:site_name" content="Ehqo’s Echoes" />
+<meta property="og:locale" content="en_EN" />
+<meta property="article:author" content="Ehqo" />
+
+<!-- Twitter specific head data was removed in v2 -->
+
+<!-- RSS Autodiscovery. Loops over meta.blog.feedLinks -->
+
+  <link
+    rel="alternate"
+    type="application/atom+xml"
+    title="Atom Feed: Ehqo’s Echoes"
+    href="/feed.xml"
+  />
+
+
+<!-- Favicon: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs -->
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+
+  </head>
+
+  <body class="home">
+    <a href="#main" class="skip-link">Skip to content</a>
+
+<header class="wrapper">
+  <div class="repel ontop">
+    <a
+      href="/"
+      class="logo | cluster"
+      aria-current="page"
+      
+    >
+    <span>
+      <span>∿ Ehqo’s Echoes</span>
+    </a>
+    
+
+
+
+<nav
+  id="mainnav"
+  class=" site-nav"
+  aria-label="Main"
+>
+  <ul class="cluster" role="list">
+    
+      <li>
+        <a
+          class="nav"
+          href="/about/"
+          
+          >About</a
+        >
+      </li>
+    
+      <li>
+        <a
+          class="nav"
+          href="/blog/"
+          
+          >Blog</a
+        >
+      </li>
+    
+      <li>
+        <a
+          class="nav"
+          href="/collections/"
+          
+          >Collections</a
+        >
+      </li>
+    
+  </ul>
+</nav>
+
+
+
+  </div>
+</header>
+
+
+    <main id="main" class="flow">
+  <article class="full | region">
+    <div class="wrapper flow prose"><h2 id="hey-there-im-ehqo"><a class="heading-anchor" href="#hey-there-im-ehqo">Hey there, I’m Ehqo!</a></h2>
+<p>Welcome to my personal website and blog.</p>
+<p>I’m still not entirely sure what I will be including here, but I imagine it will act as my <a href="https://maggieappleton.com/garden-history" rel="noopener">digital garden</a> as I find my way around on the <a href="https://indieweb.org/IndieWeb" rel="noopener">indie web</a>.</p>
+<p>As this site is very much under construction, please send me an <a href="mailto:ehqo@omg.lol">email</a> or <a href="https://social.lol/@ehqo" rel="noopener">toot</a> if you have any suggestions or find any bugs.</p>
+</div>
+  </article>
+
+  <section class="full | region">
+    <div class="wrapper flow prose">
+      <h2>Blog</h2>
+      <!-- blog intro text is optional. -->
+
+      
+        <p>Some of the things I&#39;ve been writing:</p>
+      
+
+      <ul
+        class="blogcards | grid"
+        role="list"
+        data-rows="masonry"
+        data-layout="50-50"
+      >
+        <!-- loop posts -->
+        
+        
+          <!-- activate tags -->
+          
+          <!-- set heading context -->
+          
+          <!-- card -->
+          <li class="card">
+  <div class="flow">
+    
+      <h3>
+        <a href="/blog/llms-as-tutors-not-a-grift-i-promise/">LLMs as Tutors (Not a Grift, I Promise)</a>
+      </h3>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-09T00:00:00.000Z">
+  March 8, 2024
+</time>
+
+        
+          <span class="button post-tag"> learning </span>
+        
+      </span>
+    </div>
+    <p>A brief exploration of LLMs as customized tutors and learning partners</p>
+  </div>
+</li>
+
+        
+          <!-- activate tags -->
+          
+          <!-- set heading context -->
+          
+          <!-- card -->
+          <li class="card">
+  <div class="flow">
+    
+      <h3>
+        <a href="/blog/my-new-home-online/">My New Home Online</a>
+      </h3>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-04T00:00:00.000Z">
+  March 3, 2024
+</time>
+
+        
+      </span>
+    </div>
+    <p>I finally settle into my new, permanent home online</p>
+  </div>
+</li>
+
+        
+          <!-- activate tags -->
+          
+          <!-- set heading context -->
+          
+          <!-- card -->
+          <li class="card">
+  <div class="flow">
+    
+      <h3>
+        <a href="/blog/my-2024-app-defaults/">My 2024 App Defaults</a>
+      </h3>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-03-04T00:00:00.000Z">
+  March 3, 2024
+</time>
+
+        
+          <span class="button post-tag"> tools </span>
+        
+      </span>
+    </div>
+    <p>An evergreen list of the apps that I use (almost) every day</p>
+  </div>
+</li>
+
+        
+          <!-- activate tags -->
+          
+          <!-- set heading context -->
+          
+          <!-- card -->
+          <li class="card">
+  <div class="flow">
+    
+      <h3>
+        <a href="/blog/my-coffee-defaults/">My Coffee Defaults</a>
+      </h3>
+    
+    <div class="cluster">
+      <span class="text-step-min-1">
+        
+        <time datetime="2024-01-04T00:00:00.000Z">
+  January 3, 2024
+</time>
+
+        
+          <span class="button post-tag"> coffee </span>
+        
+      </span>
+    </div>
+    <p>My daily coffee-making kit</p>
+  </div>
+</li>
+
+        
+      </ul>
+    </div>
+  </section>
+</div>
+</main>
+
+    <footer class="site-foot">
+  <div class="wrapper">
+    <div class="site-foot__inner">
+      <nav
+        class="site-foot__inner text-step-min-1"
+        aria-label="Complementary"
+      >
+        &copy; 2024
+        <a href="/" aria-current="page"
+          >Ehqo’s Echoes
+        </a>
+
+        
+          <a
+            href="/privacy/"
+            
+            >Privacy</a
+          >
+        
+      </nav>
+
+      <nav class="site-foot__inner" aria-label="Platforms">
+        <!-- gets the first item from the feed loop set in meta -->
+        <a
+          href="/feed.xml"
+          rel="alternate"
+          type="application/atom+xml"
+        >
+          <span class="visually-hidden">Atom Feed</span>
+          <div aria-hidden="true"><svg
+  role="img"
+  viewBox="0 0 24 24"
+  width="1em"
+  height="1em"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>RSS</title>
+  <path d="M4 11a9 9 0 0 1 9 9"></path>
+  <path d="M4 4a16 16 0 0 1 16 16"></path>
+  <circle cx="5" cy="19" r="1"></circle>
+</svg>
+</div>
+        </a>
+
+        
+          
+            <!-- regular platforms -->
+            <a href="https://social.lol/@ehqo" rel="me">
+              <span class="visually-hidden">Mastodon</span>
+              <div aria-hidden="true"><svg
+  role="img"
+  viewBox="0 0 24 24"
+  width="1em"
+  height="1em"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>Mastodon</title>
+  <path
+    d="M21.887,5.996C21.579,3.682 19.589,1.856 17.232,1.504C16.833,1.445 15.326,1.226 11.834,1.226L11.808,1.226C8.313,1.226 7.565,1.445 7.166,1.504C4.871,1.849 2.779,3.486 2.269,5.83C2.027,6.983 2.001,8.263 2.047,9.436C2.112,11.12 2.125,12.797 2.275,14.475C2.38,15.588 2.56,16.692 2.818,17.779C3.302,19.788 5.257,21.459 7.173,22.138C9.222,22.848 11.429,22.967 13.541,22.48C13.773,22.423 14.002,22.36 14.231,22.287C14.744,22.122 15.345,21.936 15.79,21.611C15.796,21.608 15.8,21.601 15.803,21.595C15.806,21.588 15.81,21.581 15.81,21.571L15.81,19.947C15.81,19.947 15.81,19.934 15.803,19.927C15.803,19.921 15.796,19.914 15.79,19.911C15.783,19.907 15.777,19.904 15.77,19.901L15.751,19.901C14.397,20.229 13.008,20.395 11.619,20.391C9.222,20.391 8.578,19.238 8.395,18.761C8.248,18.346 8.153,17.912 8.114,17.474C8.114,17.468 8.114,17.461 8.117,17.455C8.117,17.448 8.124,17.441 8.13,17.438C8.137,17.435 8.143,17.431 8.15,17.428L8.173,17.428C9.503,17.753 10.87,17.919 12.24,17.919C12.57,17.919 12.897,17.919 13.227,17.909C14.603,17.869 16.055,17.799 17.411,17.531C17.444,17.524 17.48,17.518 17.509,17.511C19.647,17.093 21.681,15.787 21.887,12.479C21.893,12.35 21.913,11.114 21.913,10.981C21.913,10.52 22.06,7.723 21.89,6.002L21.887,5.996Z"
+  ></path>
+  <path
+    d="M6.061,7.288C6.061,6.612 6.594,6.069 7.254,6.069C7.915,6.069 8.447,6.616 8.447,7.288C8.447,7.961 7.915,8.508 7.254,8.508C6.594,8.508 6.061,7.961 6.061,7.288Z"
+    stroke-width="1"
+    fill="currentColor"
+  ></path>
+</svg>
+</div>
+            </a>
+          
+        
+          
+            <!-- regular platforms -->
+            <a href="https://ehqo.lol" rel="me">
+              <span class="visually-hidden">Omglol</span>
+              <div aria-hidden="true"><?xml version="1.0" encoding="utf-8"?>
+<svg role="img"
+ viewBox="0 0 500 500" 
+  width="1em"
+  height="1em"
+  fill="currentColor"
+  stroke="currentColor"
+  xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(0.976563, 0, 0, -0.976563, -0.000138, 430.202057)">
+      <path
+        d="M 256 -20 C 217 -20 177 -5 147 25 L 45 127 C -15 187 -15 284 45 344 C 103 402 196 404 256 350 C 316 404 409 402 467 344 C 527 284 527 187 467 127 L 365 25 C 335 -5 295 -20 256 -20 Z M 322 282 C 304 282 290 268 290 250 C 290 232 304 218 322 218 C 339 218 354 232 354 250 C 354 268 339 282 322 282 Z M 190 282 C 173 282 158 268 158 250 C 158 232 173 218 190 218 C 208 218 222 232 222 250 C 222 268 208 282 190 282 Z M 197 183 C 190 190 178 189 172 182 C 165 175 165 163 172 157 C 172 157 172 158 172 157 C 172 157 180 145 186 139 C 193 133 200 128 208 124 C 222 116 240 112 256 112 C 272 112 290 116 304 124 C 319 132 333 145 343 160 C 348 169 345 180 337 185 C 328 190 317 188 312 179 C 306 168 298 161 287 155 C 277 150 268 148 256 148 C 244 148 235 150 225 155 C 219 158 215 161 211 165 C 207 169 197 183 197 183 C 198 182 197 183 197 183 Z M 197 183" />
+  </g>
+</svg></div>
+            </a>
+          
+        
+      </nav>
+    </div>
+
+    <!-- theme switch -->
+    <div
+  role="region"
+  class="theme-switch | cluster mt-xs"
+  style="--cluster-horizontal-alignment: center; --gutter: 0.5rem"
+  aria-labelledby="theme-switcher-label"
+  data-theme-switcher
+  hidden
+>
+  <h2 id="theme-switcher-label">Theme</h2>
+  <button class="button" id="light-theme-toggle" data-theme="light">
+    <span>light</span>
+  </button>
+  <button class="button" id="dark-theme-toggle" data-theme="dark">
+    <span>dark</span>
+  </button>
+</div>
+
+
+    <div class="text-center mt-m-l">
+      <a class="creator text-step-min-1" href="https://ehqo.net"
+        >Made with <span><svg
+  width="1em"
+  height="1em"
+  fill="none"
+  viewBox="0 0 24 24"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path
+    d="M7 3C4.239 3 2 5.216 2 7.95c0 2.207.875 7.445 9.488 12.74a.985.985 0 0 0 1.024 0C21.125 15.395 22 10.157 22 7.95 22 5.216 19.761 3 17 3s-5 3-5 3-2.239-3-5-3z"
+  />
+</svg>
+</span> by
+        Ehqo</a
+      >
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
