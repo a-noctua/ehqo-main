@@ -1,10 +1,11 @@
 ---
-title: LLMs as Tutors (Not a Grift, I Promise)
+title: LLMs as Tutors
 description: A brief exploration of LLMs as customized tutors and learning partners
 tags: ['learning', 'tools', 'ai']
 date: 2024-03-09
 ---
 
+### This is not a grift, I promise lol
 
 Recently I've been reading about how LLMs can be used as a learning partner or tutor to explore topics of interest. I decided to explore this possibility for my own purposes; an exercise I thought would also help me further compare tools like Claude 3, GPT4, and Gemini Advanced to see which would be the best for my needs. 
 
