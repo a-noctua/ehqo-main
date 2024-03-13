@@ -1,34 +1,5 @@
 /* Set up for old browsers. I set the medium Figtree as regular, as I prefer it a little bolder. */
 @supports not (font-variation-settings: normal) {
-  @font-face {
-    font-family: Figtree;
-    font-style: normal;
-    font-display: swap;
-    font-weight: 800;
-    src:
-      local(''),
-      url('/assets/fonts/figtree/figtree-extrabold.woff2') format('woff2');
-  }
-
-  @font-face {
-    font-family: Figtree;
-    font-style: normal;
-    font-display: swap;
-    font-weight: 700;
-    src:
-      local(''),
-      url('/assets/fonts/figtree/figtree-bold.woff2') format('woff2');
-  }
-
-  @font-face {
-    font-family: Figtree;
-    font-style: normal;
-    font-display: swap;
-    font-weight: 500;
-    src:
-      local(''),
-      url('/assets/fonts/figtree/figtree-medium.woff2') format('woff2');
-  }
 
   @font-face {
     font-family: Fields;

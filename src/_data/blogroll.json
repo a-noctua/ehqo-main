@@ -2,31 +2,31 @@
   {
     "name": "Webcurious",
     "description": "Web Curious is truly the only publication I will drop everything to read. A marvelous collection of links and readings, delivered on a weekly basis. It’s chock-full of self-aware, stream-of-consciousness writing. On top of that, Matt graciously provides links to well-timed backing music for each section of the post. ",
-    "screenshot": "./src/assets/images/common/owl-sprite-nobg.png",
+    "screenshot": "./src/assets/images/common/bracket-dog-powder-round.png",
     "link": "https://webcurious.co.uk"
   },
   {
     "name": "Ludicity",
     "description": "Ludicity shares his thoughts on life and work in tech - saying things that many of us are thinking, but are too afraid to say. I especially appreciate the normal, human way he writes, as it makes it all the more relatable.",
-    "screenshot": "./src/assets/images/common/owl-sprite-nobg.png",
+    "screenshot": "./src/assets/images/common/bracket-dog-powder-round.png",
     "link": "https://ludic.mataroa.blog/"
   },
   {
     "name": "A Very Good Blog",
     "description": "Keenan's blog is one of those that leaves you inspired, contemplative, and sometimes even a little upset, all at the same time. I say upset, because Keenan points out things we may not always want to think about, but should. And so, they help us return to our humanity with human writing written for humans - something in short supply these days.",
-    "screenshot": "./src/assets/images/common/owl-sprite-nobg.png",
+    "screenshot": "./src/assets/images/common/bracket-dog-powder-round.png",
     "link": "https://gkeenan.co/avgb"
   },
   {
     "name": "Low Tech Magazine",
     "description": "This is a solar powered website - how cool! Low Tech Magazine examines past technologies and practices to inform a better future for everyone. The posts aren't as frequent as I'd like, but it's absolutely worth browsing if you are interested in futurism, sustainability, or creative technical problem-solving.",
-    "screenshot": "./src/assets/images/common/owl-sprite-nobg.png",
+    "screenshot": "./src/assets/images/common/bracket-dog-powder-round.png",
     "link": "https://solar.lowtechmagazine.com/"
   },
   {
     "name": "Maggie Appleton",
     "description": "I know, I know - who hasn't put Maggie on their blogroll. Let's face it, Maggie's documentation of the digital world through the eyes of an anthropologist is absolutely facinating. Many of her writings are now synonymous with the web many of us love and are trying to build. But I encourage you to dig in deeper, past those hits into some of Maggie's other writing - there's some real gems.",
-    "screenshot": "./src/assets/images/common/owl-sprite-nobg.png",
+    "screenshot": "./src/assets/images/common/bracket-dog-powder-round.png",
     "link": "https://maggieappleton.com"
   }
 ]

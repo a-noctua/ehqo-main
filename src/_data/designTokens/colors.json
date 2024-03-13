@@ -8,19 +8,19 @@
     },
     {
       "name": "Base Light",
-      "value": "#EAE4D9"
+      "value": "#E8EDDF"
     },
     {
       "name": "Primary Highlight",
-      "value": "#6290C8"
+      "value": "#6699CC"
     },
     {
       "name": "Secondary Highlight",
-      "value": "#2A7F62"
+      "value": "#56876D"
     },
     {
       "name": "Tertiary Highlight",
-      "value": "#D36582"
+      "value": "#FFAD05"
     }
   ]
 }
