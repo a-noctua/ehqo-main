@@ -2,13 +2,13 @@
   {
     "name": "Blogroll",
     "description": "A curated collection of blogs I think are pretty neat. This changes frequently as I discover new readings and inspiration.",
-    "screenshot": "./src/assets/images/common/bracket-dog-powder-round.png",
+    "screenshot": "./src/assets/images/common/bracket-dog-alabaster-round.png",
     "link": "/collections/blogroll"
   },
   {
     "name": "More Coming Soon",
     "description": "I've got some other fun stuff in the works. Check back later for more!",
-    "screenshot": "./src/assets/images/common/bracket-dog-powder-round.png",
+    "screenshot": "./src/assets/images/common/bracket-dog-alabaster-round.png",
     "link": "/collections/"
   }
 ]
