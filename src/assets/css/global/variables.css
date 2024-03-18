@@ -41,6 +41,7 @@
   --color-primary: var(--color-secondary-highlight);
   --color-secondary: var(--color-primary-highlight);
   --color-tertiary: var(--color-tertiary-highlight);
+  --color-other: var(--color-other-highlight);
 
   /* modify base colors with color-mix - https://caniuse.com/?search=color-mix */
   --color-text-accent: color-mix(in oklab, var(--color-base-dark) 80%, var(--color-bg));
@@ -89,6 +90,7 @@
 :root[data-theme='dark'] {
   --color-text: var(--color-base-light);
   --color-bg: var(--color-base-dark);
+  --color-other: var(--color-other-highlight);
 
   /* less "intensity" with color-mix */
   --color-text-accent: color-mix(in oklab, var(--color-base-light) 70%, var(--color-bg));
