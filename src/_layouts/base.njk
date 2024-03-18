@@ -21,6 +21,7 @@
     </title>
 
     <!-- 4 synchronous js  -->
+    <script defer src="https://us.umami.is/script.js" data-website-id="d75aee2b-8f8e-4aa5-965e-632990d54957"></script>
     <!-- load theme toggle first to avoid color flashing on page load and inline render blocking js  -->
     {% set jsthemetoggle %}{% include "theme-toggle-inline.js" %}{% endset %}
 
@@ -91,7 +92,6 @@
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
     {% include "partials/meta-info.njk" %}
-    <script defer src="https://us.umami.is/script.js" data-website-id="d75aee2b-8f8e-4aa5-965e-632990d54957"></script>
   </head>
 
   <body class="{{ layout }}">
