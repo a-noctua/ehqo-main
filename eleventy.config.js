@@ -29,6 +29,7 @@ const {imageShortcode, includeRaw, liteYoutube} = require('./config/shortcodes/i
 
 // module import collections
 const {getAllPosts} = require('./config/collections/index.js');
+const {getAllGarden} = require('./config/collections/index.js');
 const {onlyMarkdown} = require('./config/collections/index.js');
 const {tagList} = require('./config/collections/index.js');
 
@@ -56,6 +57,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addLayoutAlias('home', 'home.njk');
   eleventyConfig.addLayoutAlias('page', 'page.njk');
   eleventyConfig.addLayoutAlias('blog', 'blog.njk');
+  eleventyConfig.addLayoutAlias('garden', 'garden.njk');
   eleventyConfig.addLayoutAlias('post', 'post.njk');
   eleventyConfig.addLayoutAlias('tags', 'tags.njk');
 
@@ -92,8 +94,10 @@ module.exports = eleventyConfig => {
 
   // 	--------------------- Custom collections -----------------------
   eleventyConfig.addCollection('posts', getAllPosts);
+  eleventyConfig.addCollection('gardenposts', getAllGarden);
   eleventyConfig.addCollection('onlyMarkdown', onlyMarkdown);
   eleventyConfig.addCollection('tagList', tagList);
+
 
   // 	--------------------- Events ---------------------
   if (process.env.ELEVENTY_RUN_MODE === 'serve') {

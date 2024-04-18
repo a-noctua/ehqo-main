@@ -4,6 +4,12 @@ const getAllPosts = collection => {
   return posts.reverse();
 };
 
+/** All garden posts as a collection. */
+const getAllGarden = collection => {
+  const gardenposts = collection.getFilteredByGlob('./src/gardenposts/**/*.md');
+  return gardenposts.reverse();
+};
+
 /** All markdown files as a collection for sitemap.xml */
 const onlyMarkdown = collection => {
   return collection.getFilteredByGlob('./src/**/*.md');
@@ -24,5 +30,7 @@ const tagList = collection => {
 module.exports = {
   getAllPosts,
   onlyMarkdown,
-  tagList
+  tagList,
+  getAllGarden,
 };
+
