@@ -29,9 +29,20 @@
 .card h2 a,
 .card h3 a {
   text-decoration: none;
+  color: var(--color-text);
+}
+
+.card:hover h2 a,
+.card:hover h3 a {
+  color: var(--color-primary);
 }
 
 .card:hover,
+.card:focus-within {
+  border-color: var(--color-primary);
+}
+
+.card:hover h2 a,
 .card:focus-within {
   border-color: var(--color-primary);
 }

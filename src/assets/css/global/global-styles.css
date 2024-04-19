@@ -34,10 +34,12 @@ h3 {
 
 h1 {
   font-size: var(--size-step-6);
+  color: var(--color-primary);
 }
 
 h2 {
   font-size: var(--size-step-4);
+  color: var(--color-primary);
 }
 
 h3 {
@@ -98,7 +100,7 @@ a {
 }
 
 a:hover {
-  text-decoration: none;
+  color: var(--color-primary)
 }
 
 :focus-visible {

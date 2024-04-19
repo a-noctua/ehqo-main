@@ -17,7 +17,6 @@
 .collection-card:focus-within {
     border-color: var(--color-primary); /* Change border color on hover/focus */
 }
-
   
   .collection-card img {
     max-inline-size: var(--max-img-width, 100%);
@@ -37,6 +36,11 @@
   .collection-card h3 {
     font-family: var(--font-base);
     font-size: var(--size-step-2);
+  }
+
+  .collection-card:hover h2,
+  .collection-card:hover h3 {
+    color: var(--color-primary);
   }
   
   .collection-card h2 a,

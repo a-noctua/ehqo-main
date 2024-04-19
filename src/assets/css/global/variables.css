@@ -10,26 +10,20 @@
   --tracking-s: -0.075ch;
   --tracking-wide: 0.05ch;
 
-  --gradient-rainbow: linear-gradient(
-    90deg,
-    #cf4662 10%,
-    #fbbe25 30%,
-    #62c95c 50%,
-    #08bccb 75%,
-    #a977d5 90%
-  );
-  --gradient-conic: conic-gradient(
-    var(--color-primary) 0 28%,
-    var(--color-secondary) 0 67%,
-    var(--color-tertiary) 0 100%
-  );
-  --gradient-stripes: linear-gradient(
-    45deg,
-    var(--color-base-dark) 0 75%,
-    var(--color-primary) 0 85%,
-    var(--color-secondary) 0 92%,
-    var(--color-tertiary) 0 100%
-  );
+  --gradient-rainbow: linear-gradient(90deg,
+      #cf4662 10%,
+      #fbbe25 30%,
+      #62c95c 50%,
+      #08bccb 75%,
+      #a977d5 90%);
+  --gradient-conic: conic-gradient(var(--color-primary) 0 28%,
+      var(--color-secondary) 0 67%,
+      var(--color-tertiary) 0 100%);
+  --gradient-stripes: linear-gradient(45deg,
+      var(--color-base-dark) 0 75%,
+      var(--color-primary) 0 85%,
+      var(--color-secondary) 0 92%,
+      var(--color-tertiary) 0 100%);
 }
 
 :root,
@@ -38,8 +32,8 @@
   --color-text: var(--color-base-dark);
   --color-bg: var(--color-base-light);
   --color-base: var(--color-base-highlight);
-  --color-primary: var(--color-secondary-highlight);
-  --color-secondary: var(--color-primary-highlight);
+  --color-primary: var(--color-primary-highlight);
+  --color-secondary: var(--color-secondary-highlight);
   --color-tertiary: var(--color-tertiary-highlight);
   --color-other: var(--color-other-highlight);
 
@@ -54,28 +48,23 @@
   :root {
     --color-text: var(--color-base-light);
     --color-bg: var(--color-base-dark);
+    --color-primary: var(--color-primary-highlight);
 
     /* less "intensity" with color-mix */
-    --color-text-accent: color-mix(
-      in oklab,
-      var(--color-base-light) 70%,
-      var(--color-bg)
-    );
+    --color-text-accent: color-mix(in oklab,
+        var(--color-base-light) 70%,
+        var(--color-bg));
     --color-bg-accent: color-mix(in oklab, var(--color-bg) 92%, var(--color-text));
     --color-bg-accent-2: color-mix(in oklab, var(--color-bg) 80%, var(--color-text));
 
     /* add opacity with color-mix */
-    --color-primary: color-mix(in oklab, var(--color-primary-highlight), transparent 20%);
-    --color-secondary: color-mix(
-      in oklab,
-      var(--color-secondary-highlight),
-      transparent 20%
-    );
-    --color-tertiary: color-mix(
-      in oklab,
-      var(--color-tertiary-highlight),
-      transparent 20%
-    );
+
+    --color-secondary: color-mix(in oklab,
+        var(--color-secondary-highlight),
+        transparent 20%);
+    --color-tertiary: color-mix(in oklab,
+        var(--color-tertiary-highlight),
+        transparent 20%);
 
     /* desaturate with CSS Relative colors */
     @supports (color: hsl(from white h s l)) {
@@ -90,7 +79,6 @@
 :root[data-theme='dark'] {
   --color-text: var(--color-base-light);
   --color-bg: var(--color-base-dark);
-  --color-other: var(--color-other-highlight);
 
   /* less "intensity" with color-mix */
   --color-text-accent: color-mix(in oklab, var(--color-base-light) 70%, var(--color-bg));
@@ -98,12 +86,10 @@
   --color-bg-accent-2: color-mix(in oklab, var(--color-bg) 80%, var(--color-text));
 
   /* add opacity with color-mix */
-  --color-primary: color-mix(in oklab, var(--color-primary-highlight), transparent 20%);
-  --color-secondary: color-mix(
-    in oklab,
-    var(--color-secondary-highlight),
-    transparent 20%
-  );
+  --color-primary: color-mix(in oklab, var(--color-primary-highlight), var(--color-base-light) 30%);
+  --color-secondary: color-mix(in oklab,
+      var(--color-secondary-highlight),
+      transparent 20%);
   --color-tertiary: color-mix(in oklab, var(--color-tertiary-highlight), transparent 20%);
 
   /* desaturate with CSS Relative colors */

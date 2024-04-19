@@ -5,7 +5,6 @@ tags: ['coffee', 'changelog']
 date: 2024-04-19
 ---
 
-# My Coffee Defaults
 Inspired by a few folks in the [32bit.cafe](https://32bit.cafe) Discord, I figured I’d make a riff on the App Defaults project by [Robb Knight](https://knight.me) and [Hemispheric Views](https://listen.hemisphericviews.com/097) - this time with **coffee.** 
 
 I’ve been told by my better-three-quarters that I am not allowed to bring any more coffee contraptions into the home. This is probably for the best, because I have previously done alot of experiments with brewing. I will say though, I don’t consider myself a “bean connoisseur” by any remote sense of the term. While I have my preferred tastes and methods, there’s nothing quite like a cup of joe slung by an aloof waitress at a tri-state diner. Below, I’ll share my current go-to tools and beans. If you have any questions, or would like to share your own “Coffee Defaults”, reach out via [email](mailto:ehqo@omg.lol) or [Mastodon](https://social.lol/@ehqo).
