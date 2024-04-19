@@ -48,7 +48,7 @@
   :root {
     --color-text: var(--color-base-light);
     --color-bg: var(--color-base-dark);
-    --color-primary: var(--color-primary-highlight);
+    --color-primary: color-mix(in oklab, var(--color-primary-highlight), var(--color-base-light) 30%);
 
     /* less "intensity" with color-mix */
     --color-text-accent: color-mix(in oklab,
