@@ -25,6 +25,10 @@
     {
       "name": "Other Highlight",
       "value": "#FFAD05"
+    },
+    {
+      "name": "Primary Dark",
+      "value": "#619D79"
     }
   ]
 }
