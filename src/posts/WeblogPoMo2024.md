@@ -1,6 +1,6 @@
 ---
 title: WeblogPoMo 2024 
-description: Notes from Ehqo’s Hideout
+description: It's time to write again!
 tags: ['hobbycollector']
 date: 2024-04-29
 ---
@@ -15,9 +15,8 @@ If you'd like to follow my WeblogPoMo adventure, or the adventure of others, you
 \- [Ehqo’s Hideout/Digital Garden on RSS](https://notes.ehqo.net/feed.atom)  
 \- [Pomo, the Mastodon bot sharing everyone's posts each day](https://social.lol/@Pomo@beep.town)  
   
-All of my posts will originate on my Scribbles blog, [Ehqo’s Hideout](https://notes.ehqo.net/), and be cross-posted to my [Digital Garden](https://ehqo.net/garden/).  
+All of my posts will originate on my Scribbles blog, [Ehqo’s Hideout](https://notes.ehqo.net/), and be cross-posted to my [Digital Garden](https://ehqo.net/garden/) on this site.  
   
 I'll see you all out there!
 
 Originally posted on [Scribbles](https://notes.ehqo.net/post/weblogpomo-2024)
-Cross-posted via [EchoFeed](https://echofeed.app)
