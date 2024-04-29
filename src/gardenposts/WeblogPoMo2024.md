@@ -1,7 +1,7 @@
 ---
 title: WeblogPoMo 2024 
 description: Notes from Ehqo’s Hideout
-tags: ['{{ tags.0 }}']
+tags: ['hobbycollector']
 date: 2024-04-29
 ---
 
