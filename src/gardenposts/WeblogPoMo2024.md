@@ -12,7 +12,7 @@ There's a [growing list](https://weblog.anniegreens.lol/weblog-posting-month-202
 Because I am a person in need of some sort of structure, I've decided to follow Keenan's lead and give myself a theme in hopes that it will keep me motivated and on track for all of May. I will be documenting my decade-long journey as *The Hobby Collector*. Since an early age I have never stuck to just one interest, and so I will be exploring my past endeavors ranging from landscape design and EDC gear to home automation and stained glass work.  
   
 If you'd like to follow my WeblogPoMo adventure, or the adventure of others, you can do so here:  
-\- [Ehqo](https://notes.ehqo.net/feed.atom)[’](https://notes.ehqo.net/)[s Hideout/Digital Garden on RSS](https://notes.ehqo.net/feed.atom)  
+\- [Ehqo’s Hideout/Digital Garden on RSS](https://notes.ehqo.net/feed.atom)  
 \- [Pomo, the Mastodon bot sharing everyone's posts each day](https://social.lol/@Pomo@beep.town)  
   
 All of my posts will originate on my Scribbles blog, [Ehqo’s Hideout](https://notes.ehqo.net/), and be cross-posted to my [Digital Garden](https://ehqo.net/garden/).  
