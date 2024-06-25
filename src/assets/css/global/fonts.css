@@ -5,7 +5,7 @@
     font-family: Fields;
     font-style: normal;
     font-display: swap;
-    font-weight: 700;
+    font-weight: 400;
     src:
       local(''),
       url('/assets/fonts/figtree/figtree-medium.woff2') format('woff2');
@@ -27,8 +27,7 @@
   @font-face {
     font-family: 'Fields';
     src:
-      url('/assets/fonts/fields/Fields.woff2')
-        format('woff2 supports variations'),
+      url('/assets/fonts/fields/Fields.woff2') format('woff2 supports variations'),
       url('/assets/fonts/fields/Fields.woff2') format('woff2-variations');
     font-weight: 200 400;
     font-style: normal;
@@ -38,10 +37,8 @@
   @font-face {
     font-family: 'Fields';
     src:
-      url('/assets/fonts/fields/Fields.woff2')
-        format('woff2 supports variations'),
-      url('/assets/fonts/fields/Fields.woff2')
-        format('woff2-variations');
+      url('/assets/fonts/fields/Fields.woff2') format('woff2 supports variations'),
+      url('/assets/fonts/fields/Fields.woff2') format('woff2-variations');
     font-weight: 200 400;
     font-style: italic;
     font-display: swap;
@@ -66,4 +63,34 @@
   src:
     local(''),
     url(/assets/fonts/robotomono/robotomono-regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'DankMono-Regular';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src:
+    local(''),
+    url(/assets/fonts/dankmono/DankMono-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'DankMono-Italic';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src:
+    local(''),
+    url(/assets/fonts/dankmono/DankMono-Italic.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'DankMono-Bold';
+  font-style: normal;
+  font-display: swap;
+  font-weight: normal;
+  src:
+    local(''),
+    url(/assets/fonts/dankmono/DankMono-Bold.woff2) format('woff2');
 }
