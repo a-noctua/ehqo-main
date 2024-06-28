@@ -18,6 +18,6 @@ Lulalar! Allayloo! Nuv!
 See you next time, and May the 4th be with you.
 
 ---
-Originally posted on [Scribbles](https://notes.ehqo.net/post/the-hobby-collector-star-wars)
+
 Cross-posted via [EchoFeed](https://echofeed.app)
 Image credit: Dave of [Arrowhead](https://www.arrowheadcanton.com/).

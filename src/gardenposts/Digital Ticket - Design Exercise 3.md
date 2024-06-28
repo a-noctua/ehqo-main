@@ -13,5 +13,4 @@ I really enjoyed playing around with colors, typefaces, and ticket layouts for t
 
 
 
-Originally posted on [Scribbles](https://scribbles.page/fm16xt6x/posts/design-challenge-3)
 Cross-posted via [EchoFeed](https://echofeed.app)

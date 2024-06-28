@@ -61,5 +61,4 @@ I hope you enjoyed this more technical, step-based approach to The Hobby Collect
   
   
 
-Originally posted on [Scribbles](https://notes.ehqo.net/post/the-hobby-collector-stained-glass)
 Cross-posted via [EchoFeed](https://echofeed.app)

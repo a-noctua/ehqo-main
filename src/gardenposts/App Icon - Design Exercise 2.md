@@ -15,5 +15,4 @@ I was originally hoping to have the rhino's horn pop out a bit, but I landed on 
 
 
 
-Originally posted on [Scribbles](https://scribbles.page/fm16xt6x/posts/design-challenge-2)
 Cross-posted via [EchoFeed](https://echofeed.app)

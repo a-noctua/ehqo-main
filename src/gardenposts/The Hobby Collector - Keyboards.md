@@ -26,5 +26,5 @@ Shoutout to [8bit](https://8bit.lol/), [Jose (vzq)](https://vzq.lol/), and other
 See you next time!
 
 ---
-Originally posted on [Scribbles](https://notes.ehqo.net/post/the-hobby-collector-keyboards)
+
 Cross-posted via [EchoFeed](https://echofeed.app)

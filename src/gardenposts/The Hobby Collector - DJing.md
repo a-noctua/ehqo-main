@@ -34,5 +34,5 @@ I still think about coming back to it - just for the fun of it. Not to play part
 [^6]: Sarcasm. Loads of it.
 [^7]: Anywhere where my better half can’t hear me. Best for the both of us lol.
 
-Originally posted on [Scribbles](https://notes.ehqo.net/post/the-hobby-collector-djing)
+
 Cross-posted via [EchoFeed](https://echofeed.app)

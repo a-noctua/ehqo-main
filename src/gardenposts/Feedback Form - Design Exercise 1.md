@@ -15,5 +15,4 @@ I thought I'd try to make something that could also be printed and left in a roo
 
 
 
-Originally posted on [Scribbles](https://scribbles.page/fm16xt6x/posts/design-challenge-1)
 Cross-posted via [EchoFeed](https://echofeed.app)
