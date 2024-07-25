@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@csstools/postcss-relative-color-syntax": "^2.0.9",
-    "@tinacms/cli": "^1.5.40",
+    "@tinacms/cli": "^1.5.47",
     "@toycode/markdown-it-class": "^1.2.4",
     "@types/node": "^20.11.24",
     "autoprefixer": "^10.4.13",
